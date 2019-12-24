@@ -19,12 +19,12 @@
         <div class="row">
 
             <?php if ($page == 'login') { ?>
-                <div class="col"></div>
+                <div class="col-2"></div>
                 <div class="col">
                    <?php include('include/login.php');?>
                 </div>
 
-            <? } else { ?>
+            <?php } else { ?>
 
             <div class="col-sm-3" style="border: 1px solid red">
                 One of three columns
